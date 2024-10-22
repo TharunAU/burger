@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body{
+    margin: 0px;
+}
+
+.page1{
+    padding-bottom: 50px;
+    background-image: url(../Burger/background.png);
+}
+
+.align{
+    display: flex;
+    justify-content: center;
+    grid-gap:650px;
+}
+
+.align1{
+    display: flex;
+    justify-content: center;
+    padding-left: 45px;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px;
+    margin-left: 20px;
+}
+
+ul{
+    padding: 0px;
+}
+
+p{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+i{
+    padding-top: 17px;
+}
+
+.align2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    grid-gap: 100px;
+}
+
+h3,h1{
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bur{
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+    color: brown;
+    font-family: fantasy;
+}
+
+.bur1{
+    font-family: fantasy;
+    margin: 0px;
+    padding: 0px;
+    font-size: 40px;
+    color: brown;
+}
+
+.bor{
+    border: dashed 2px;
+    padding: 5px;
+}
+
+.page2{
+    padding-top: 30px;
+}
+
+.align21{
+    display: flex;
+    justify-content: center;
+    grid-gap: 40px;
+    height: 473px;
+}
+
+.imgg{
+    background-image: url(../Burger/burger\ onios.png);
+    width: 600px;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.imgg1{
+    background-image: url(../Burger/2\ burger.png);
+    height: 192px;
+    width: 548px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.imgg2{
+    background-image: url(../Burger/2\ burger.png);
+    height: 192px;
+    width: 548px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    margin-top: 35px;
+}
+
+.imggtext{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+    margin: 20px;
+    line-height: 1.2;
+}
+
+.imgg1text{
+    line-height: 1.2;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+    padding: 20px;
+    margin: 0px;
+}
+
+.imgg2text{
+    line-height: 1.2;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+.but1{
+    justify-content: center;
+    background-color: #f5c542;
+    padding: 8px;
+    font-family: "Oswald", sans-serif;
+    color: brown;
+    border: none;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.end{
+    line-height: 1.7;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+.page3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.align3{
+    display: flex;
+    justify-content: center;
+    grid-gap: 140px;
+}
+
+.card{
+    height: 420px;
+    width: 270px;
+}
+
+.burimg{
+    height: 220px;
+    width: 270px;
+}
+
+.burname{
+    color: brown;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+}
+
+.end1{
+    line-height: 1.0;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 13px;
+    margin-top: -10px;
+}
+
+.butt{
+    background-color: red;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    color: whitesmoke;
+    font-family: "Oswald", sans-serif;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.page4{
+    padding-bottom: 50px;
+
+}
+
+.align4{
+    display: flex;
+    justify-content: center;
+    height: 370px;
+    width: 1100px;
+    margin-left: 80px;
+    margin-left: 130px;
+    box-shadow: rgb(148, 145, 141) 5px 10px 15px ;
+}
+
+.img4{
+    height: 330px;
+    width: 520px;
+    margin-left: 146px;
+    margin-top: 17px;
+}
+
+.para4{
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    margin-left: 25px;
+    color: gray;
+}
+.page5{
+    background-image: url(../Burger/sauce\ amd\ burfger.png);
+    background-size: cover;
+    margin: 0px;
+    height: 650px;
+}
+
+.text5{
+    padding-top: 50px;
+    text-align: center;
+    line-height: 0.5;
+    font-family: "PT Sans", sans-serif;
+    color: brown;
+}
+
+.book{
+    text-align: center;
+    line-height: 0.5;
+    font-family: fantasy;
+    color: brown;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+
+.ttable{
+    width: 800px;
+    margin-left: 280px;
+    padding: 50px;
+}
+
+input{
+    padding: 15px;
+    padding-right: 150px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+}
+
+.findbutt{
+    padding: 15px;
+    padding-right: 104px;
+    padding-left: 104px;
+    text-align: center;
+    background-color: red;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.page6{
+    background-image: url(../Burger/shadow.png);
+    height: 500px;
+    background-size: cover;
+    margin: 50px;
+}
+
+.lastlogo{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.align7{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    grid-gap: 500px;
+}
+
+.lastpara{
+    margin: 0px;
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    margin-left: 25px;
+    color: gray;
+}
+
+
+.align712{
+    display: flex;
+    justify-content: center;
+}
+
+.align713{
+    display: flex;
+    justify-content: center;
+}
+
+.imgg2text1{
+    line-height: 1.2;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+}
